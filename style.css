@@ -216,3 +216,44 @@ main .content
     padding: 0;
     margin: 0;
 }
+
+
+#hamburger-show-btn
+{
+    position: relative;
+    background-color:  rgb(44, 42, 42); /* Blau */
+  color: white; /* Weißer Text */
+  padding: 0; /* Abstand innen */
+  font-size: 16px; /* Schriftgröße */
+  border: none; /* Kein Rahmen */
+  cursor: pointer; /* Zeiger-Cursor */
+  margin-left: auto;
+  z-index: 1;
+}
+
+#hamburger-show-btn:hover, 
+#hamburger-show-btn:focus {
+    background-color:  rgb(44, 42, 42);/* Dunkleres Blau */
+  }
+
+.off-nav-bar{
+    background-color: rgb(44, 42, 42);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+}
+
+.off-nav-bar.active
+{
+    right: 0;
+}
+
+

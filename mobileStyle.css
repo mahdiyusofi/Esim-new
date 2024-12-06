@@ -13,6 +13,11 @@
         display: none;
       }
 
+      #hamburger-show-btn
+      {
+        display: flex;
+      }
+
    
       
   }
