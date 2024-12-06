@@ -1,0 +1,218 @@
+:root
+{
+    font-size: 20px;
+}
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
+    margin: 0; /* Entfernt ungewollte Ränder */
+    padding: 0; /* Entfernt ungewollte Abstände */
+    min-height: 100vh;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+header
+{
+    background-color: rgb(44, 42, 42);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center; /* Zentrierung auf der vertikalen Achse */
+    justify-content: center; /* Zentrierung auf der horizontalen Achse */
+   
+}
+footer
+{
+
+   margin-top: auto;
+   background-color: rgb(44, 42, 42);
+   width: 100%;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center; /* Zentrierung auf der vertikalen Achse */
+   justify-content: center; /* Zentrierung auf der horizontalen Achse */
+   
+}
+
+footer section ul a
+{
+    color: white;
+}
+footer a:hover {
+    color: #007BFF; 
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #575b64;
+    color: white;
+}
+
+.fa-instagram {
+    background: #575b64;
+    color: white;
+}
+
+
+#LogoText {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF; /* Weiße Schriftfarbe für Kontrast */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #005f73, #0a9396); /* Dunklerer Farbverlauf */
+    padding: 10px 20px;
+    margin-inline: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#LogoText:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-bar a:hover {
+    color: #007BFF; 
+}
+
+
+
+
+
+main
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
+    flex: 1;
+}
+
+.hero-section
+{
+    width: 100vw;
+    height: 40rem;
+    display: flex;
+   font-size: 1.5rem;
+    
+}
+#hero-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 100%;
+}
+
+#hero-img img{
+    height: 100%;
+    width: 100%;
+}
+.hero-section .slogan-text
+{
+
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: left; 
+}   
+h1, h2, h3
+{
+    color:  #005f73;
+}
+
+#btn-services
+{
+    width: 250px;
+    height: 3rem;
+    background-color:rgb(44, 42, 42); /* Grüner Hintergrund */
+    color: #fff; 
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px; /* Leicht abgerundete Ecken */
+    font-size: 30px;
+    display: inline-block; /* Block-Level für Padding und Zentrierung */
+    text-align: center; 
+    line-height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn-services:hover {
+    background-color: rgb(22, 20, 20); /* Dunkleres Grün beim Hover */
+    transform: scale(1.05); /* Leichte Vergrößerung */
+}
+
+main .content
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aswq 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+}
+
+
+.aswq section
+{
+    width: 100%;
+}
+.aswq section ul
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
