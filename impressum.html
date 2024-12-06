@@ -10,23 +10,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div id="LogoText">
-            ESIM
-        </div>
-        <section class="nav-bar">
-            <ul>
-                <a href="index.html">Home</a>
-                
-                <a href="services.html">Dienstleistungen</a>
-                <a href="prices.html">Preise</a>
-                <a href="contact.html">Kontakt</a>
-                <a href="repairbonus.html">Reparaturbonus</a>
-              </ul>
-        </section>
-       
-
-    </header>
+  <header>
+    <div id="LogoText">
+        ESIM
+    </div>
+    <section class="nav-bar">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="services.html">Dienstleistungen</a>
+            <a href="prices.html">Preise</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="repairbonus.html">Reparaturbonus</a>
+          </ul>
+          <div class="lan-dropdown">
+            <button onclick="myFunction()" class="lan-dropbtn">Sprache</button>
+            <div id="lan-Dropdown" class="lan-dropdown-content">
+              <a href="">Deutsch</a>
+              <a href="">Englisch</a>
+              <a href="">Farsi</a>
+              <a href="">Arabisch</a>
+            </div>
+          </div>
+    </section>
+    <button id="hamburger-show-btn">
+        <img src="hamburger-icon.png" alt="">
+    </button>
+    
+   
+    <section class="off-nav-bar">
+          
+            <a href="index.html">Home</a>
+            <a href="services.html">Dienstleistungen</a>
+            <a href="prices.html">Preise</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="repairbonus.html">Reparaturbonus</a>
+    </section>
+</header>
     <main>
         <div class="content">
             <div class="aswq">
@@ -96,6 +115,6 @@
             
             
           </footer>
-
+          <script src="script.js"></script>
 </body>
 </html>
